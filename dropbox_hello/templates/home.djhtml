@@ -1,0 +1,14 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dropbox Hello</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+
+  <body>
+    <h1>Dropbox Hello</h1>
+    <p><a href="{% url 'start_auth' %}">start auth</a></p>
+  </body>
+</html>
